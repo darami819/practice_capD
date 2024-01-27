@@ -1,0 +1,50 @@
+name: ex_game1
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.2.3 <4.0.0'
+
+dependencies:
+  flame: ^1.0.0-releasecandidate.13
+  flutter:
+    sdk: flutter
+  logging: ^1.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/players/player.png
+    - assets/images/players/_player.PNG
+    - assets/images/players/player_a.png
+    - assets/images/players/player_s.png
+    - assets/images/players/player_d.png
+    - assets/images/players/player_w.png
+    - assets/images/players/starts_0.png
+    - assets/images/players/starts_1.png
+    - assets/images/players/starts_2.png
+    - assets/images/players/starts_3.png
+    - assets/images/players/starts_4.png
+
+    - assets/images/room.PNG
+
+    - assets/images/profile/univ_student.PNG
+
+    - assets/images/fridge/fridge.png
+    - assets/images/fridge/fridge_3.png
+    - assets/images/fridge/fridge_4.png
+    - assets/images/fridge/fridge_small.png
+
+    - assets/images/table/table.png
+    - assets/images/table/table_2.png
+    - assets/images/table/table_3.png
+    - assets/images/table/table_4.png
+
+
+
